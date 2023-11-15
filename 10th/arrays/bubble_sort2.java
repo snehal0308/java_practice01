@@ -26,8 +26,13 @@ public class bubble_sort2 {
 				if(marks[j] > marks[j+1]) {
 					// swap  
 					int temp = marks[j];
+					String temp_name = names[j];
+					
 					marks[j] = marks[j+1]; 
+					names[j] = names[j+1]; 
+					
 					marks[j+1] = temp; 	
+					names[j+1] = temp_name;
 				}
 			}
 		}
