@@ -4,7 +4,7 @@ import java.util.*;
 
 // basic selection sort 
 
-public class array1 {
+public class selection_sort1 {
 	
 	// creating a function to print the array 
 
@@ -30,11 +30,11 @@ public class array1 {
 					
 					smallest = j ; 
 				}
-				// time for a nice swap :)
-				int temp = arr[smallest]; 
-				arr[smallest] = arr[i]; 
-				arr[i] = temp; 
 			}
+			// time for a nice swap :)
+			int temp = arr[smallest]; 
+			arr[smallest] = arr[i]; 
+			arr[i] = temp; 
 		}
 		
 		printArray(arr);
@@ -42,4 +42,3 @@ public class array1 {
 	}
 }
 	
-
